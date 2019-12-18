@@ -1,0 +1,24 @@
+server:
+  port: 9006
+spring:
+  application:
+    name: hystrix #当前服务名称，注册到Eureka server上的名称
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka/ #注册中心的访问地址
+  instance:
+    prefer-ip-address: true #是否将当前服务的ip注册到eureka server中
+
+feign:
+  hystrix:
+    enabled: true #feign集成 hystrix
+
+
+
+#
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "hystrix.stream"

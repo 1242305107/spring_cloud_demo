@@ -1,0 +1,8 @@
+server:
+  port: 9999
+eureka:
+  client:
+    register-with-eureka: false  #是否将当前的Eureka server服务作为客户端进行注册
+    fetch-registry: false #是否获取其他Eureka server 服务数据
+    service-url:
+      defaultZone: http://localhost:9999/eureka/  #注册中心访问地址
