@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: client
+  profiles:
+    active: dev #name+active拼接处配置文件名称
+  cloud:
+    config:
+      uri: http://localhost:9007 #本地配置文件访问地址
+      fail-fast: true #优先判断config-server是否正常

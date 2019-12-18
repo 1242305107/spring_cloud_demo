@@ -12,8 +12,11 @@
         <option value="$PROJECT_DIR$/zuul/pom.xml" />
         <option value="$PROJECT_DIR$/ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/feign/pom.xml" />
-        <option value="$PROJECT_DIR$/config/pom.xml" />
         <option value="$PROJECT_DIR$/hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/native-config/pom.xml" />
+        <option value="$PROJECT_DIR$/github-config/pom.xml" />
+        <option value="$PROJECT_DIR$/native-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/github-config-client/pom.xml" />
       </list>
     </option>
   </component>

@@ -9,14 +9,20 @@
         <module name="hystrix" />
         <module name="zuul" />
         <module name="eureka-server" />
-        <module name="feign" />
         <module name="common" />
+        <module name="native-config-client" />
+        <module name="github-config" />
+        <module name="ribbon" />
+        <module name="feign" />
         <module name="server-consumers" />
         <module name="server-provider" />
-        <module name="ribbon" />
-        <module name="config" />
+        <module name="github-config-client" />
+        <module name="native-config" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
@@ -24,7 +30,11 @@
       <module name="config" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="feign" options="-parameters" />
+      <module name="github-config" options="-parameters" />
+      <module name="github-config-client" options="-parameters" />
       <module name="hystrix" options="-parameters" />
+      <module name="native-config" options="-parameters" />
+      <module name="native-config-client" options="-parameters" />
       <module name="ribbon" options="-parameters" />
       <module name="server-consumers" options="-parameters" />
       <module name="server-provider" options="-parameters" />
