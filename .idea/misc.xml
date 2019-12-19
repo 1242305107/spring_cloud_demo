@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/github-config/pom.xml" />
         <option value="$PROJECT_DIR$/native-config-client/pom.xml" />
         <option value="$PROJECT_DIR$/github-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/client-test1/pom.xml" />
       </list>
     </option>
   </component>
