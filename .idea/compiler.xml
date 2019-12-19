@@ -6,18 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="hystrix" />
+        <module name="native-config-client" />
         <module name="zuul" />
         <module name="eureka-server" />
-        <module name="common" />
-        <module name="native-config-client" />
-        <module name="github-config" />
-        <module name="ribbon" />
         <module name="feign" />
+        <module name="common" />
+        <module name="github-config" />
+        <module name="hystrix" />
         <module name="server-consumers" />
+        <module name="ribbon" />
         <module name="server-provider" />
-        <module name="github-config-client" />
         <module name="native-config" />
+        <module name="github-config-client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
