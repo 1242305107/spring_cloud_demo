@@ -11,9 +11,11 @@ eureka:
     prefer-ip-address: true #是否将当前服务的ip注册到eureka server中
 ---
 spring:
+  profiles: dev
   application:
     name: github-client-config-dev
 ---
 spring:
+  profiles: test
   application:
     name: github-client-config-test
