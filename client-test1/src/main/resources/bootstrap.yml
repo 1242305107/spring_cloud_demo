@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: client
+  profiles:
+    active: dev #name+active拼接处配置文件名称
+  cloud:
+    config:
+      uri: http://localhost:9007 #本地配置文件访问地址
+      fail-fast: true #优先判断config-server是否正常
+
+server:
+  port: 9009
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka/ #注册中心的访问地址
+  instance:
+    prefer-ip-address: true #是否将当前服务的ip注册到eureka server中

@@ -1,8 +1,8 @@
 server:
-  port: 9007
+  port: 9004
 spring:
   application:
-    name: config #当前服务名称，注册到Eureka server上的名称
+    name: ribbon #当前服务名称，注册到Eureka server上的名称
 eureka:
   client:
     service-url:

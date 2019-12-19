@@ -1,49 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="026edad4-ce18-4aa3-9cb4-6b3334b70e73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="0cc8daec-fe08-40d2-becf-e20eacc3bbca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/common.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/eureka-server.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/feign/feign.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hystrix/hystrix.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ribbon/ribbon.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-consumers/server-consumers.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-provider/server-provider.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/zuul.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-test1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-test1/src/main/java/com/tckj/config/test1/ConfigTest1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-test1/src/main/java/com/tckj/config/test1/controller/ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client-test1/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configFile/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configFile/github-config-client.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/META-INF/feign.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/com/tckj/feign/FeignApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/feign/target/classes/com/tckj/feign/controller/FeignController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-client/github-config-client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-client/src/main/java/com/tckj/githubclient/GithubApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-client/src/main/java/com/tckj/githubclient/controller/GithubController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config/src/main/java/com/tckj/githubconfig/GithubConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github-config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/target/classes/com/tckj/hystrix/HystrisApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/target/classes/com/tckj/hystrix/config/HystrixDashboardConfiguration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hystrix/target/classes/com/tckj/hystrix/controller/HystrixController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/native-config-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/native-config-client/src/main/java/com/tckj/client/ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/native-config-client/src/main/java/com/tckj/client/controller/ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/native-config-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/native-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/native-config/src/main/java/com/tckj/nativeconfig/NativeConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/native-config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/native-config/src/main/resources/configFile/client-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/target/classes/META-INF/ribbon.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/target/classes/com/tckj/ribbon/RibbonApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ribbon/target/classes/com/tckj/ribbon/controller/RibbonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-consumers/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-consumers/target/classes/com/tckj/consumers/ConsumersApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-consumers/target/classes/com/tckj/consumers/controller/ConsumersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server-provider/target/classes/META-INF/server-provider.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zuul/target/classes/com/tckj/zuul/ZuulApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/github-config-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ribbon/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/feign/src/main/java/com/tckj/feign/controller/FeignController.java" beforeDir="false" afterPath="$PROJECT_DIR$/feign/src/main/java/com/tckj/feign/controller/FeignController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-provider/src/main/java/com/tckj/provider/ProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/server-provider/src/main/java/com/tckj/provider/ProviderApplication.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/javaNosql/apache-maven-3.6.0-bin/apache-maven-3.6.0" />
-      </MavenGeneralSettings>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
     </option>
   </component>
-  <component name="ProjectId" id="1V9uxzXy1dBnpN7sqiDfu69BL1O" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/JavaCode/ecosystem-code" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/github-config-client/src/main/resources" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\GitDownCode\spring_cloud_demo\github-config-client\src\main\resources" />
+      <recent name="E:\GitDownCode\spring_cloud_demo\client-test1\src\main\resources" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,7 +97,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProviderApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigTest1Application">
+    <configuration name="ClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="native-config-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tckj.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tckj.client.ClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigTest1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="client-test1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tckj.config.test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tckj.config.test1.ConfigTest1Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="eureka-server" />
       <extension name="coverage">
@@ -71,45 +137,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="server-provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tckj.provider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tckj.provider.ProviderApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ProviderApplication" />
+        <item itemvalue="Spring Boot.ConfigTest1Application" />
+        <item itemvalue="Spring Boot.ClientApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="SshConsoleOptionsProvider">
-    <option name="myEncoding" value="UTF-8" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="026edad4-ce18-4aa3-9cb4-6b3334b70e73" name="Default Changelist" comment="" />
-      <created>1576677882376</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1576677882376</updated>
-      <workItem from="1576677885655" duration="3107000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -121,5 +161,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="GROUP_MULTIFILE_MERGE_BY_DIRECTORY" value="true" />
   </component>
 </project>

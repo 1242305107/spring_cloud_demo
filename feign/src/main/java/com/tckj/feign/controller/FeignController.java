@@ -15,6 +15,7 @@ import java.util.Collection;
  */
 @RestController
 @RequestMapping("/feign")
+
 public class FeignController {
 
 

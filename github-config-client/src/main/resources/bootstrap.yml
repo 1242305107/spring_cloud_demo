@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      name: github-config-client
+
+        uri: http://localhost:9007 #本地配置文件访问地址
+          fail-fast: true #优先判断config-server是否正常
+      label: master
+      discovery:
+        enabled: true
+        service-id: github-config

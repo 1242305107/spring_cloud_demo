@@ -1,0 +1,19 @@
+server:
+  port: 10000
+spring:
+  profiles:
+    active: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka/ #注册中心的访问地址
+  instance:
+    prefer-ip-address: true #是否将当前服务的ip注册到eureka server中
+---
+spring:
+  application:
+    name: github-client-config-dev
+---
+spring:
+  application:
+    name: github-client-config-test

@@ -1,0 +1,21 @@
+server:
+  port: 9008
+spring:
+  application:
+    name: github-config #当前服务名称，注册到Eureka server上的名称
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/1242305107/spring_cloud_demo.git
+          username: 1242305107@qq.com
+          password: wang13145A
+          search-paths: configFile
+      label: master
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9999/eureka/ #注册中心的访问地址
+  instance:
+    prefer-ip-address: true #是否将当前服务的ip注册到eureka server中
+
