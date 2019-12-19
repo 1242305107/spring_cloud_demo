@@ -13,4 +13,4 @@ spring:
 spring:
   profiles: test
   application:
-    name: github-client-config-test11111
+    name: github-client-config-test11111333333
